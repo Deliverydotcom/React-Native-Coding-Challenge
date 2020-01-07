@@ -40,15 +40,15 @@ When you are finished please submit a .zip file with your entire project (node_m
 You will be using a spoofed version of the delivery.com search API to fetch a list of restaurants. The URL looks like:
 
 ```
-https://dcom-native-interview.s3-website-us-east-1.amazonaws.com/api/merchant/query/:address
+https://dcom-native-interview.s3.amazonaws.com/api/merchant/query/:address
 ```
 
 Please use the address from the text input, remove any non-digit characters, and convert it to lowercased camel_case.
 
-For example if a user types in "55 Water Street, 10041" your GET request should look like this:
+For example if a user types in "55 Water St, 10041" your GET request should look like this:
 
 ```
-fetch('https://dcom-native-interview.s3-website-us-east-1.amazonaws.com/api/merchant/query/55_water_st_10041');
+fetch('https://dcom-native-interview.s3.amazonaws.com/api/merchant/query/55_water_st_10041');
 ```
 
 For simplicity please only use the following addresses:

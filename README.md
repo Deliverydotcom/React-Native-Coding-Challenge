@@ -29,7 +29,7 @@ When you are finished please submit a .zip file with your entire project (node_m
 
 ## 4. Bonus Features
 
- These features are ** absolutely not** required, however if you finish your project early and wish to continue here are some ideas:
+ These features are **absolutely not** required, however if you finish your project early and wish to continue here are some ideas:
   * Implement "pull to refresh" on the list
   * Implement validation on the text input, so users see an error if they attempt to submit a malformatted address
   * Include a "share" button on each search result that allows you to send a link to the restaurants home page to a friend using the share dialog
